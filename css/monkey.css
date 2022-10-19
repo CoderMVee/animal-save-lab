@@ -9,4 +9,19 @@ html {
 }
 
 /* Write your solution here */
+.wrapper {
+  width: 90%;
+}
 
+@media screen and (min-width: 406px) and (max-width: 1170px) {
+  
+  .wrapper {
+    width: 406px;
+  }
+
+  #monkey {
+    position: absolute;
+    top: -50px;
+    right: 120px;
+  }
+}

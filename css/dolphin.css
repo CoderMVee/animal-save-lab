@@ -19,4 +19,21 @@ html {
 }
 
 /* Write your solution here */
+.wrapper {
+  width: 90%;
+}
 
+@media screen and (min-width: 642px) and (max-width: 1090px) {
+  
+  .wrapper {
+    width: 642px;
+  }
+
+  #dolphin {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    transform: rotate(270deg);
+  }
+
+}
